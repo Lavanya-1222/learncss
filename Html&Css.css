@@ -55,7 +55,7 @@ a{
 
 .top-banner{
     background-image: url('./assets/asset\ 32.png');
-    background-color: aqua;
+    background-color: #;
     opacity: 0.7;
     background-size: 300px;
 }
@@ -159,7 +159,7 @@ padding: 10px 20px;
     justify-content: space-between;
     height: 46px;
 }
-
+/* <!-- ---------companies-header-end----------- --> */
 /* ---------featues----------- */
  .features{
     padding: 80px var(--padding-inline-section) 0;
@@ -194,7 +194,7 @@ text-align: center;
 
     height:50px;
 }
-
+/* ---------featues-end---------- */
 /* -------big-features-section-----------
  */
  .feature-left img{
@@ -216,7 +216,7 @@ text-align: center;
     flex-direction: column;
     align-items: flex-start;
  }
-
+/* -------big-features-section-end----------
  /* -----------exaples-card----------- */
  .exaples-card{
 width: 23%;
@@ -254,3 +254,48 @@ min-height: 300px;
     box-shadow: 0 0 10px #888;
     transition: 0.1s ease-out;
  }
+
+  /* -----------exaples-card-end---------- */
+
+  /* -----------cts-section------------ */
+
+.cta-section
+{
+    background-color: #183b54;
+    padding: 120px var(--padding-inline-section) 80px;
+}
+.cta-body{
+    flex-direction: column;
+    gap:30px;
+    
+}
+.cta-body p{
+    color:white !important;
+    margin-top: 20px;
+}
+.cta-body h2{
+    color:white !important;
+}
+/* -----------cts-section-end----------- */
+
+/* ---------------footer------------ */
+footer{
+    background-color: #EBF2FA;
+    padding: 80px var(--padding-inline-section) 40px;
+    margin-top: 60px ;
+}
+.links-colmun{
+flex-direction: column;
+gap:20px;
+align-items: flex-start;
+
+}
+.footer-container{
+    justify-content: space-between;
+    gap:40px;
+    align-items: flex-start;
+
+}
+/* ---------------footer-end----------- -- */
+
+/* ----------------sub-footer-----------------  */
