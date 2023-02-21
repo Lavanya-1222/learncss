@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+.grid-container{
+height:500px;
+width:700px;
+display: grid;
+gap:10px;
+/* grid-template-columns: 100px 100px 100px; */
+/* grid-template-rows: 100px 100px ; */
+background-color: antiquewhite;
+grid-template-areas: "hdr hdr hdr hdr"
+                      "sdr main main main"
+                      "foter foter foter foter";
+/* align-content: center; */
+/* align-items: center; */
+}
+div{
+    border: 1px solid black;
+}
+.block1{
+    grid-area:hdr;
+
+}
+.block2{
+    grid-area:sdr;
+
+}
+.block3{
+    grid-area:main;
+
+}
+.block4{
+    grid-area:foter;
+}
+</style>
+
+</head>
+<body style="display:flex;justify-content: center;margin-top:50px;">
+    <div class="grid-container">
+  <div class="block1">block 1</div>
+  <div class="block2">block 2</div>
+  <div class="block3">block 3</div>  
+  <div class="block4">block 4</div>
+
+</body>
+</html>
