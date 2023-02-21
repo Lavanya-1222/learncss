@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+
+    --primary-color:#183b56;
+    --secondary-color:#577592;
+    --accent-color: #2294ed;
+    --accet-color-dark: #1d69a3;
+    --padding-inline-section: 18px;
+}
+
+body{
+
+    font-family: 'Roboto',sans-serif;
+    color: var(--primary-color);
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+p{
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.25rem;
+    color: var(--secondary-color);
+    line-height: 1.8rem;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* ------utility---- */
+.container{
+    border: 0.5 solid black;
+    max-width: 1180px;
+    margin: auto;
+    padding: var(--padding-inline-section);
+}
+.flex{
+    display:flex;
+    align-items: center;
+}
+
+
+.top-banner{
+    background-image: url('./assets/asset\ 32.png');
+    background-color: aqua;
+    opacity: 0.7;
+    background-size: 300px;
+}
+.small-bold-text{
+     text-align: center;
+     font-family: 'Roboto';
+     color: black;
+    padding:0 15px;
+    font-size: 0.90rem;
+}
+
+/* -----nav-----*/
+.company-logo img{
+    width: 200px;
+}
+
+.hover-link{
+
+    color: var(--primary-color);
+}
+.hover-link:hover{
+    color: var(--accent-color);
+}
+.nav-links ul {
+    flex-basis: 750px;
+    justify-content: end;
+    gap:40px;
+ list-style-type: none;
+}
+.main-nav{
+    /* border: 1px solid red; */
+    justify-content: space-between;
+}
+.sinup-btn{}
+
+.signin-btn{
+
+    background-color: var(--accent-color);
+    color: white !important;
+     box-shadow: 0 0 2px var
+     (--secondary-color);
+     font-weight: 700;
+border-radius: 5px;
+padding: 10px 20px;
+}
+.signin-btn:hover{
+    background-color: var(--accet-color-dark);
+}
+.signup-btn{
+
+border: 0.2px solid var(--secondary-color);
+    color: var(--primary-color) !important;
+     box-shadow: 0 0 2px var
+     (--secondary-color);
+     font-weight: 600;
+border-radius: 5px;
+padding: 10px 20px;
+}
+.signup-btn:hover{
+    border: 0.2px solid var(--accent-color);
+    color: var(--accent-color)!important;
+    box-shadow: 0 0 2px var(--accet-color-dark);
+}
+
+/*-------header-----------*/
+/* .header{
+
+    padding: 40px var(--padding-inline-section) 0px;
+} */
+.main-header{
+    /* border: 0.5px solid; */
+    justify-content: space-between;
+    gap:50px;
+}
+.right-header img{
+    /* border: 0.5px solid; */
+ width: 600px;
+}
+.left-header{
+    /* border: 0.5px solid; */
+    max-width: 40vw;
+}
+.left-header h1{
+    margin-top: 20px;
+ 
+}
+.get-s-btn{
+ margin-top: 20px;
+}
+
+/*---------companies header------------*/
+
+.company-header{
+    margin-block: 20px;
+}
+.companies-logo{
+    margin-block: 20px;
+    justify-content: space-between;
+}
+.companies-logo img{
+    justify-content: space-between;
+    height: 46px;
+}
+
+/* ---------featues----------- */
+/* .features{
+    padding: 80px var(--padding-inline-section) 0;
+} */
+.features-header {
+text-align: center;
+}
+
+.features-header h2{
+    margin-bottom: 20px;
+}
+.features-card-area{
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    border: 0.5px  solid;
+}
+.features-card{
+border: 0.5px  solid;
+    flex-direction: column;
+ gap:15px;
+    text-align: center;
+}
