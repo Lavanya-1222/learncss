@@ -55,7 +55,7 @@ a{
 
 .top-banner{
     background-image: url('./assets/asset\ 32.png');
-    background-color: #;
+    background-color: rgb(14, 196, 196);
     opacity: 0.7;
     background-size: 300px;
 }
@@ -299,3 +299,12 @@ align-items: flex-start;
 /* ---------------footer-end----------- -- */
 
 /* ----------------sub-footer-----------------  */
+.subfooter{
+    background-color: #b9cde4;
+    padding:  10px var(--padding-inline-section);
+}
+.subfooter-container{
+    justify-content: center;
+    gap:20px;
+
+}
