@@ -194,3 +194,25 @@ text-align: center;
 
     height:50px;
 }
+
+/* -------big-features-section-----------
+ */
+ .feature-left img{
+    width: 100%;
+ }
+ .big-feature-section{
+    flex-direction: column;
+ margin-top: 40px;
+ /* border: 0.5px solid; */
+ }
+ .big-feature{
+    gap:40px;
+
+ }
+ .feature-left{
+    /* border: 0.5px solid; */
+ }
+ .feature-right{
+    flex-direction: column;
+    align-items: flex-start;
+ }
