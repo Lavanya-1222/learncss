@@ -15,9 +15,9 @@ h2 {
     color: white;
 }
 
-p {
+p { text-align: justify;
     font-size: 1.2rem;
-    text-align: left;
+   
     color: white;
 }
 
@@ -100,4 +100,38 @@ p {
     grid-area: seth;
     text-align: center;
     color:white;
+}
+@media screen and (max-width:768px)   {
+
+    .container{
+        flex-direction: column;
+        background: linear-gradient(to bottom, rgb(13, 14, 13), rgb(234, 241, 234));
+    }
+    
+    .right-side{
+        width: 90%;
+
+    }
+    p{
+        text-align: justify;
+        margin-inline: 20px ;
+    }
+    
+}
+@media screen and (orientation: portrait)   {
+
+    .container{
+        flex-direction: column;
+        background: linear-gradient(to bottom, rgb(13, 14, 13), rgb(234, 241, 234));
+    }
+    
+    .right-side{
+        width: 90%;
+
+    }
+    p{
+        text-align: justify;
+        margin-inline: 20px ;
+    }
+    
 }
