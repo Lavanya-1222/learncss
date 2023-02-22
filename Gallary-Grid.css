@@ -110,7 +110,19 @@ p { text-align: justify;
     
     .right-side{
         width: 90%;
-
+grid-template-areas: "hdr hdr hdr"
+"nd nd nd"
+"rd rd rd"
+"foth foth foth"
+"fith fith fith"
+"sith sith sith"
+"seth seth seth";
+grid-auto-rows: 200px;
+    }
+    .box1{
+        background-size: cover;
+        background-position: unset;
+        grid-area: hdr;
     }
     p{
         text-align: justify;
@@ -126,9 +138,10 @@ p { text-align: justify;
     }
     
     .right-side{
-        width: 90%;
+        width: 98%;
 
     }
+
     p{
         text-align: justify;
         margin-inline: 20px ;

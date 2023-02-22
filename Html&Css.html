@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="stylesheet" href="./Html&Css.css">
+    <link rel="stylesheet" href="./meadia-query.css">
     <title>Sample Website 1</title>
 </head>
 
@@ -27,7 +28,7 @@
             <div class="company-logo">
                 <a href="./assets/asset 1.png" alt="Company Logo"><img src="./assets/asset 1.png"> </a>
             </div>
-            <div class="nav-links">
+            <div id='nav-links'class="nav-links">
                 <ul class="flex">
                     <li><a class="hover-link" href='#'>Product</a></li>
                     <li><a href='#' class="hover-link">Customers</a></li>
@@ -40,15 +41,18 @@
 
                 </ul>
             </div>
+            <a id="nav-toggle"class="bars hover-link" href="#"><i class="fa-solid fa-bars"></i></a>
         </div>
     </nav>
 
-    <header class="header">
+    <header>
+       
         <div class="container main-header flex">
-            <div class="left-header">
+            <div class="left-header flex">
                 <h1>Design confidently.</h1>
                 <p>UsabilityHub is a remote user research platform that takes the guesswork out of design decisions by
                     validating them with real users</p>
+                   
                 <a href="#" class="signin-btn get-s-btn">Get Started</a>
             </div>
             <div class="right-header">
@@ -144,7 +148,7 @@
                     experiences for your users.</p>
             </div>
         </div>
-        <div class="container flex big-feature" style="flex-direction: row-reverse;">
+        <div id='row-reverse' class="container flex big-feature">
             <div class="feature-left">
                 <img src="./assets/asset 21.png" alt="">
             </div>
@@ -182,24 +186,24 @@
 
             <div class="examples-area flex">
 
-                <a href="#" class="exaples-card ">
+                <a href="#" class="examples-card ">
                     <h3>Can User find important page on my website?</h3>
                 </a>
 
 
 
 
-                <a href="#" class="exaples-card ">
+                <a href="#" class="examples-card ">
                     <h3>Do a visitor understand what is page about?</h3>
                 </a>
 
 
-                <a href="#" class="exaples-card ">
+                <a href="#" class="examples-card ">
                     <h3>Can User complete task in my software interface ?</h3>
                 </a>
 
 
-                <a href="#" class="exaples-card ">
+                <a href="#" class="examples-card ">
                     <h3>Can User complete task in my software interface ?</h3>
                 </a>
 
@@ -275,6 +279,15 @@
         </div> 
     </div>
 
+<script>
+const togglebtn=document.getElementById('nav-toggle');
+const navlinks=document.getElementById('nav-links');
+togglebtn.addEventListener('click',()=>
+{
+    navlinks.classList.toggle('active');
+})
+
+</script>
 </body>
 
 </html>
