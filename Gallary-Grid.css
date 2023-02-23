@@ -124,6 +124,26 @@ grid-auto-rows: 200px;
         background-position: unset;
         grid-area: hdr;
     }
+    .box2{
+        background-size: cover;
+        background-position: unset;
+        grid-area: nd;
+    }
+    .box3{
+        background-size: cover;
+        background-position: unset;
+        grid-area: rd;
+    }
+    .box4{
+        background-size: cover;
+        background-position: unset;
+        grid-area: foth;
+    }
+    .box4{
+        background-size: cover;
+        background-position: unset;
+        grid-area: fith;
+    }
     p{
         text-align: justify;
         margin-inline: 20px ;
